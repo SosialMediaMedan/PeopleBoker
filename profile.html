@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      PeopleBooker
+    </title>
+    <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/app.v1.css">
+    <link rel="stylesheet" href="css/font.css" cache="false">
+    <!--[if lt IE 9]>
+
+<script src="js/ie/respond.min.js" cache="false">
+</script>
+
+<script src="js/ie/html5.js" cache="false">
+</script>
+
+<script src="js/ie/fix.js" cache="false">
+</script>
+
+<![endif]-->
+  </head>
+  <body>
+    <section class="hbox stretch">
+      <!-- .aside -->
+      <aside class="bg-light aside b-r" id="nav">
+        <section class="vbox">
+          <header class="bg-dark nav-bar">
+            <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="body">
+              <i class="icon-reorder">
+              </i>
+            </a>
+            <a href="#" class="nav-brand" data-toggle="fullscreen">
+              PBooker
+            </a>
+            <a class="btn btn-link visible-xs" data-toggle="class:show" data-target=".nav-user">
+              <i class="icon-comment-alt">
+              </i>
+            </a>
+          </header>
+          <footer class="footer b-r bg-gradient hidden-xs">
+            <a href="modal.lockme.html" data-toggle="ajaxModal" class="btn btn-sm btn-link m-r-n-xs pull-right">
+              <i class="icon-off">
+              </i>
+            </a>
+            <a href="#nav" data-toggle="class:nav-vertical" class="btn btn-sm btn-link m-l-n-sm">
+              <i class="icon-reorder">
+              </i>
+            </a>
+          </footer>
+          <section>
+            <div class="bg-dark lter nav-user hidden-xs pos-rlt">
+              <div class="nav-avatar pos-rlt">
+                <a href="#" class="thumb-sm avatar animated rollIn" data-toggle="dropdown">
+                  <img src="images/hd.png" alt="" class="">
+                  <span class="caret caret-white">
+                  </span>
+                </a>
+                <ul class="dropdown-menu m-t-sm animated fadeInLeft">
+                  <span class="arrow top">
+                  </span>
+                  <li>
+                    <a href="cover.html">
+                      Cover
+                    </a>
+                  </li>
+                  <li>
+                    <a href="profile.html">
+                      Profile
+                    </a>
+                  </li>
+                  <li>
+                    <a href="teras.html">
+                      Beranda
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mail.html">
+                      <span class="badge bg-danger pull-right">
+                        3
+                      </span>
+                      Mail 
+                    </a>
+                  </li>
+                  <li class="divider">
+                  </li>
+                  <li>
+                    <a href="404.html">
+                      Help
+                    </a>
+                  </li>
+                  <li>
+                    <a href="signin.html">
+                      Logout
+                    </a>
+                  </li>
+                </ul>
+                <div class="visible-xs m-t m-b">
+                  <a href="#" class="h3">
+                    Hadi Lubis
+                  </a>
+                  <p>
+                    <i class="icon-map-marker">
+                    </i>
+                    Medan, Indonesia
+                  </p>
+                </div>
+              </div>
+              <div class="nav-msg">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <b class="badge badge-white count-n">
+                    2
+                  </b>
+                </a>
+                <section class="dropdown-menu m-l-sm pull-left animated fadeInRight">
+                  <div class="arrow left">
+                  </div>
+                  <section class="panel bg-white">
+                    <header class="panel-heading">
+                      <strong>
+                        kamu punya 
+                        <span class="count-n">
+                          2
+                        </span>
+                        pemberitahuan
+                      </strong>
+                    </header>
+                    <div class="list-group">
+                      <a href="#" class="media list-group-item">
+                        <span class="pull-left thumb-sm">
+                          <img src="images/hd.png" alt="Hadi Lubis" class="img-circle">
+                        </span>
+                        <span class="media-body block m-b-none">
+                           Foto Profil telah diubah
+                          <br>
+                          <small class="text-muted">
+                            8 Jun 14
+                          </small>
+                        </span>
+                      </a>
+                      <a href="#" class="media list-group-item">
+                        <span class="media-body block m-b-none">
+                          Pembaharuan Profil
+                          <br>
+                          <small class="text-muted">
+                            8 Jun 14
+                          </small>
+                        </span>
+                      </a>
+                    </div>
+                    <footer class="panel-footer text-sm">
+                      <a href="#" class="pull-right">
+                        <i class="icon-cog">
+                        </i>
+                      </a>
+                      <a href="#">
+                        lihat semua pemberitahuan
+                      </a>
+                    </footer>
+                  </section>
+                </section>
+              </div>
+            </div>
+            <nav class="nav-primary hidden-xs">
+              <ul class="nav">
+                <li>
+                  <a href="settings.html">
+                    <i class="icon-key">
+                    </i>
+                    <span>
+                      Settings
+                    </span>
+                  </a>
+                </li>
+                  <li>
+                  <a href="metube.html">
+                    <i class="icon-play-circle">
+                    </i>
+                    <span>
+                     P-Videos
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </section>
+      </aside>
+      <!-- /.aside -->
+      <!-- .vbox -->
+      <section id="content">
+        <section class="vbox">
+          <header class="header bg-white b-b">
+            <p>
+              Welcome to your profile
+            </p>
+          </header>
+          <section class="scrollable">
+            <section class="hbox stretch">
+              <aside class="aside-lg bg-light lter b-r">
+                <section class="vbox">
+                  <section class="scrollable">
+                    <div class="wrapper">
+                      <div class="clearfix m-b">
+                        <a href="#" class="pull-left thumb m-r">
+                          <img src="images/hd.png" class="img-circle">
+                        </a>
+                        <div class="clear">
+                          <div class="h3 m-t-xs m-b-xs">
+                            Hadi Lubis
+                          </div>
+                          <small class="text-muted">
+                            <i class="icon-map-marker">
+                            </i>
+                            Medan, Indonesia
+                          </small>
+                        </div>
+                      </div>
+                      <div class="panel wrapper">
+                        <div class="row">
+                          <div class="col-xs-4">
+                            <a href="#">
+                              <span class="m-b-xs h4 block">
+                                245
+                              </span>
+                              <small class="text-muted">
+                                Followers
+                              </small>
+                            </a>
+                          </div>
+                          <div class="col-xs-4">
+                            <a href="#">
+                              <span class="m-b-xs h4 block">
+                                55
+                              </span>
+                              <small class="text-muted">
+                                Following
+                              </small>
+                            </a>
+                          </div>
+                          <div class="col-xs-4">
+                            <a href="#">
+                              <span class="m-b-xs h4 block">
+                                2,035
+                              </span>
+                              <small class="text-muted">
+                                Tweets
+                              </small>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="btn-group btn-group-justified m-b">
+                        <a class="btn btn-success btn-rounded" data-toggle="button">
+                          <span class="text">
+                            <i class="icon-eye-open">
+                            </i>
+                            Follow 
+                          </span>
+                          <span class="text-active">
+                            <i class="icon-eye-open">
+                            </i>
+                            Following 
+                          </span>
+                        </a>
+                        <a class="btn btn-info btn-rounded">
+                          <i class="icon-comment-alt">
+                          </i>
+                          Chat 
+                        </a>
+                      </div>
+                      <div>
+                        <small class="text-uc text-xs text-muted">
+                          pekerjaan
+                        </small>
+                        <p>
+                          Mahasiswa
+                        </p>
+                        <small class="text-uc text-xs text-muted">
+                          info
+                        </small>
+                        <p>
+                          Kelahiran: Medan, 14 Februari 1995<br>Tinggal di Kota Medan, Sumatera Utara<br>Indonesia
+                        </p>
+                    </div>
+                  </section>
+                </section>
+              </aside>
+              <aside class="bg-white">
+                <section class="vbox">
+                  <header class="header bg-aqua bg-gradient">
+                    <ul class="nav nav-tabs nav-bg-blue bg-gradient">
+                      <li >
+                        <a href="#activity" data-toggle="tab" style="color:blue;" >
+                          Activity
+                        </a>
+                      </li>
+                     
+                     
+                    </ul>
+                  </header>
+                  <section class="scrollable">
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="activity">
+                        <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-lg no-border">
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/darius.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                3 menit yang lalu
+                              </small>
+                              <strong class="block">
+                                Salsa Devina
+                              </strong>
+                              <small>
+                                Mengubah Foto Profilnya ... 
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/maria.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                5 menit yang lalu
+                              </small>
+                              <strong class="block">
+                                Maria Na
+                              </strong>
+                              <small>
+                                Mengubah Foto Profilnya ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/bolang.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                30 menit yang lalu
+                              </small>
+                              <strong class="block">
+                                Alif Hidayatullah
+                              </strong>
+                              <small>
+                                mengubah info dirinya ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/roha.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                1 jam yang lalu
+                              </small>
+                              <strong class="block">
+                                Rini Sipahutar
+                              </strong>
+                              <small>
+                                Menambah Info dirinya...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/bolang.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                3 jam yang lalu
+                              </small>
+                              <strong class="block">
+                                Alif Hidayatullah
+                              </strong>
+                              <small>
+                                Bergabung di PeopleBooker ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/darius.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                6 jam yang lalu
+                              </small>
+                              <strong class="block">
+                                Salsa Devina
+                              </strong>
+                              <small>
+                                Mengubah Info dirinya ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/gale.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                8 jam yang lalu
+                              </small>
+                              <strong class="block">
+                                Rio Paldi D. Sirait
+                              </strong>
+                              <small>
+                                Mengubah Foto Profilnya ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/darius.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                1 hari yang lalu
+                              </small>
+                              <strong class="block">
+                                Salsa Devina
+                              </strong>
+                              <small>
+                                Bergabung di PeopleBooker ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item" href="#email-content" data-toggle="class:show">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/maria.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                2 hari yang lalu
+                              </small>
+                              <strong class="block">
+                                Maria Na
+                              </strong>
+                              <small>
+                                Bergabung di PeopleBooker ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/roha.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                4 hari yang lalu
+                              </small>
+                              <strong class="block">
+                                Rini Sipahutar
+                              </strong>
+                              <small>
+                                Bergabung di PeopleBooker ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/gale.jpg" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                5 hari yang lalu
+                              </small>
+                              <strong class="block">
+                                Rio Paldi D. Sirait
+                              </strong>
+                              <small>
+                                Bergabung di PeopleBooker ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/logoPB2.png" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                9 Jun 14
+                              </small>
+                              <strong class="block">
+                                PBooker Fans
+                              </strong>
+                              <small>
+                                Mengubah Info dirinya ...
+                              </small>
+                            </a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="#" class="thumb-sm pull-left m-r-sm">
+                              <img src="images/logoPB2.png" class="img-circle">
+                            </a>
+                            <a href="#" class="clear">
+                              <small class="pull-right">
+                                6 Jun 14
+                              </small>
+                              <strong class="block">
+                                PBooker Fans
+                              </strong>
+                              <small>
+                                Bergabung di PeopleBooker ...
+                              </small>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-pane" id="events">
+                        <div class="text-center wrapper">
+                          <i class="icon-spinner icon-spin icon-large">
+                          </i>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="interaction">
+                        <div class="text-center wrapper">
+                          <i class="icon-spinner icon-spin icon-large">
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </aside>
+              <aside class="col-lg-4 b-l">
+                <section class="vbox">
+                  <section class="scrollable">
+                    <div class="wrapper">
+                      <section class="panel">
+                        <form>
+                          <textarea class="form-control no-border" rows="5" placeholder="What's your mind...">
+                          </textarea>
+                        </form>
+                        <footer class="panel-footer bg-light lter">
+                          <button class="btn btn-info pull-right btn-sm">
+                            KIRIM
+                          </button>
+                          <ul class="nav nav-pills nav-sm">
+                            <li>
+                              <a href="#">
+                                <i class="icon-camera">
+                                </i>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <i class="icon-facetime-video">
+                                </i>
+                              </a>
+                            </li>
+                          </ul>
+                        </footer>
+                      </section>
+                      <section class="panel">
+                        <h4 class="font-thin padder">
+                          Selamat Bergabung !
+                        </h4>
+                        <ul class="list-group">
+                          <li class="list-group-item">
+                            <p>
+                              Selamat datang 
+                              <a href="#" class="text-info">
+                                @malifh_
+                              </a>
+                              dan selamat bergabung di PeopleBooker
+                            </p>
+                            <small class="block text-muted">
+                              <i class="icon-time">
+                              </i>
+                              3 jam yang lalu
+                            </small>
+                          </li>
+                          <li class="list-group-item">
+                            <p>
+                              Selamat datang 
+                              <a href="#" class="text-info">
+                                @Salsa_Devina
+                              </a>
+                              dan selamat bergabung di PeopleBooker
+                            </p>
+                            <small class="block text-muted">
+                              <i class="icon-time">
+                              </i>
+                              8 jam yang lalu
+                            </small>
+                          </li>
+                          <li class="list-group-item">
+                            <p>
+                              Selamat datang 
+                              <a href="#" class="text-info">
+                                @RioPaldi_S
+                              </a>
+                              dan selamat bergabung di PeopleBooker
+                            </p>
+                            <small class="block text-muted">
+                              <i class="icon-time">
+                              </i>
+                              1 hari yang lalu
+                            </small>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </section>
+                </section>
+              </aside>
+            </section>
+          </section>
+        </section>
+        <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="body">
+        </a>
+      </section>
+      <!-- /.vbox -->
+    </section>
+    <script src="css/app.v1.js">
+    </script>
+    <!-- Bootstrap -->
+    <!-- App -->
+    <!-- fuelux -->
+    <!-- datatables -->
+    <!-- Sparkline Chart -->
+    <!-- Easy Pie Chart -->
+  </body>
+</html>
